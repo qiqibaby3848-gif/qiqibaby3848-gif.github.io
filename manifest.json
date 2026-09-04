@@ -1,0 +1,16 @@
+{
+"name": "开心快乐每一天 · 观影导航",
+"short_name": "观影导航",
+"start_url": "/",
+"display": "standalone",
+"background_color": "#0f2027",
+"theme_color": "#203a43",
+"icons": [
+{
+"src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAACCElEQVR4nO3dsXHDQAwAwYcGhagOpeq/JzbAi8lgtwIHNyBA2uP5/v4H7nye/gF4L3GQxEESB0kcpD1nnv4ZeCmTg7QGB8XkIImDZCElmRwkcZDEQdqxchBMDpJrhWRykMRBEgdJHKQ9blmCyUESB0kcJHGQxEHy+pzkF4xJqw2KnYMkDpKFlGRykMRBcsqSTA6ShZRkcpDEQRIHSRwkpyzJtULyyZ5k5yCJgyQOkoWUZHKQvOcgmRwkcZDEQXKtkEwOkjhITlmSyUHaMToIJgdJHCRxkMRBcsqSvD4neayQxEESB0kcJAspySlL8lghiYPkr+xJFlKSxwpJHCSnLMnkIImD5FohmRwkcZDEQXLKkiykJI8VkjhIPtmTTA6SOEiuFZL3HCSPFZI4SOIgWUhJJgdJHCSnLMnkIImD5Foh+WRP8lghiYPklCVZSEkeKyRxkMRBEgfJQkpyypI8VkjiIImDJA6S/2VPMjlITlmSyUESB8nrc5LJQRIHSRwkpyzJ5CC5VkgmB0kcJHGQ/JU9yUJK8p6DZOcgiYMkDpI4SK4VkslBcsqSTA6SOEgWUpLJQRIHySd7klOWZCEl2TlI4iCJgyQOkjhIe8a1wj2TgyQOkjhI4iB5fU4yOUjrkqWYHCRxkMRBcq2QTA6SOEh+wZhkcpAspCSTgyQOkjhI4iDt+CxLuADVIwLHAOitBAAAAABJRU5ErkJggg==",
+"sizes": "180x180",
+"type": "image/png",
+"purpose": "any"
+}
+]
+}
