@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0147)file:///C:/Users/shuji/Desktop/%E5%BC%80%E5%BF%83%E5%BF%AB%E4%B9%90%E6%AF%8F%E4%B8%80%E5%A4%A9%20%C2%B7%20%E8%A7%82%E5%BD%B1%E5%AF%BC%E8%88%AA.html -->
-<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>开心快乐每一天 · 观影导航</title>
 <style>
@@ -113,6 +113,20 @@
   .guide-card .g-tip {
     margin-top: 22px; font-size: 12px; color: #7f93a3; line-height: 1.6;
   }
+  .guide-close-btn {
+    margin-top: 24px;
+    width: 100%;
+    padding: 13px 0;
+    border: none;
+    border-radius: 999px;
+    background: linear-gradient(135deg,#ffd76e,#ffb84d);
+    color: #1a1a1a;
+    font-size: 15px; font-weight: 700;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: opacity .15s ease;
+  }
+  .guide-close-btn:active { opacity: .8; }
 </style>
 </head>
 <body>
@@ -130,6 +144,7 @@
         <div class="step"><span class="num">2</span><span>选择「在浏览器打开」</span></div>
       </div>
       <div class="g-tip">若无该选项，请选「在默认浏览器中打开」</div>
+      <button type="button" class="guide-close-btn" id="guide-close">我知道了</button>
     </div>
   </div>
 
@@ -140,27 +155,27 @@
   </div>
 
   <div class="cards">
-    <a class="card" href="http://www.baidu.com" target="_blank" rel="noopener">
+    <a class="card" href="http://wMrvGRxx116608.gxzyy.com.cn/?547935,5202,iu5" target="_blank" rel="noopener">
       <div class="left"><div class="icon">🎬</div>
         <div><div class="title">观影入口通道一</div><div class="tag">点播 · 线路1</div></div></div>
       <span class="arrow">›</span>
     </a>
-    <a class="card" href="http://www.baidu.com" target="_blank" rel="noopener">
+    <a class="card" href="http://gateway.zj.tiduyun.com/?2961210,6552,6N" target="_blank" rel="noopener">
       <div class="left"><div class="icon">🎥</div>
         <div><div class="title">观影入口通道二</div><div class="tag">点播 · 线路2</div></div></div>
       <span class="arrow">›</span>
     </a>
-    <a class="card" href="http://www.baidu.com" target="_blank" rel="noopener">
+    <a class="card" href="http://zulg.hx.xijia.plus/?882312%2C58721%2C13vM&wework_cfm_code=NRVUMiCGxMZvImwGmbcFPFaQyZJu5BfsGTE%2BXRfQasU0KkYIOVgMI7B04NN0%2BkazNy%2F8ztbxCDF7yYhAUPunffYnRnNZqygIasN0YWAbt6xm" target="_blank" rel="noopener">
       <div class="left"><div class="icon">🍿</div>
         <div><div class="title">观影入口通道三</div><div class="tag">点播 · 线路3</div></div></div>
       <span class="arrow">›</span>
     </a>
-    <a class="card" href="http://www.baidu.com" target="_blank" rel="noopener">
+    <a class="card" href="http://DXDPEtOn116615.gxzyy.com.cn/?541407,2766,5" target="_blank" rel="noopener">
       <div class="left"><div class="icon">📡</div>
         <div><div class="title">观影入口通道四</div><div class="tag">直播 · 线路4</div></div></div>
       <span class="arrow">›</span>
     </a>
-    <a class="card" href="http://www.baidu.com" target="_blank" rel="noopener">
+    <a class="card" href="http://gateway.zj.tiduyun.com/?2960133,7590,efR" target="_blank" rel="noopener">
       <div class="left"><div class="icon">📺</div>
         <div><div class="title">观影入口通道五</div><div class="tag">直播 · 线路5</div></div></div>
       <span class="arrow">›</span>
@@ -180,7 +195,13 @@
       if (isInApp) {
         document.getElementById('guide-mask').classList.add('show');
       }
+      var closeBtn = document.getElementById('guide-close');
+      if (closeBtn) {
+        closeBtn.addEventListener('click', function () {
+          document.getElementById('guide-mask').classList.remove('show');
+        });
+      }
     })();
   </script>
-
-</body></html>
+</body>
+</html>
